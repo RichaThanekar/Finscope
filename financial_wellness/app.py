@@ -13,7 +13,7 @@ st.title("📊 Inflation Forecast Dashboard")
 # -------------------------------
 # 2️⃣ Load Data
 # -------------------------------
-df_all = pd.read_excel("df_all.xlsx", parse_dates=['Month'])
+df_all = pd.read_excel("data/df_all.xlsx", parse_dates=['Month'])
 
 # -------------------------------
 # 3️⃣ Prepare data for Prophet
@@ -252,3 +252,5 @@ st.dataframe(
 #     'yhat_upper': 'Upper CI'
 # })
 # st.dataframe(forecast_12m)
+
+
