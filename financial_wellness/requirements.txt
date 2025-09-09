@@ -10,3 +10,4 @@ cohere
 fpdf
 prophet
 openpyxl
+plotly
