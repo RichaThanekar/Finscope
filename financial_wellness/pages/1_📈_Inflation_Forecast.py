@@ -1,4 +1,4 @@
-# streamlit_app.py
+# This is a copy of app.py for the multipage app structure
 import streamlit as st
 import pandas as pd
 from prophet import Prophet
