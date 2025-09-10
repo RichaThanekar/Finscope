@@ -11,3 +11,6 @@ fpdf
 prophet
 openpyxl
 plotly
+markdown
+google-generativeai
+requests
